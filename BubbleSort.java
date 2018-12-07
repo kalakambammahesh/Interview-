@@ -14,9 +14,8 @@ public class BubbleSort {
 			arr[i] = sc.nextInt();
 		}
 		
-		int endPosition = 1;
+		int endPosition = arr.length-1;
 		while(endPosition > 0) {
-			endPosition = 0;
 			int swapPosition = 0;
 			for(int i = 0;i < n-1;i++) {
 				if(arr[i] > arr[i+1]) {
